@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Hindustan Laboratory, your trusted partner for diagnostic tests in Thalarka, Hanumangarh, India. Explore our services and access your test reports online.">
+    <title>Hindustan Laboratory - Home</title>
+    <style>
+        /* Your CSS remains unchanged */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #a50000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        nav ul li a {
+            background-color: #a50000;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.3s;
+            font-size: 0.9em;
+        }
+
+        nav ul li a:hover {
+            background-color: #850000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .welcome, .about, .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome h2, .about h2, .contact h2 {
+            color: #a50000;
+            margin-bottom: 15px;
+        }
+
+        .welcome p, .about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #a50000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #850000;
+        }
+
+        .cta-button i {
+            margin-right: 8px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto 20px;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact button {
+            background-color: #a50000;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .contact button:hover {
+            background-color: #850000;
+        }
+
+        .contact-details {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .contact-details a {
+            color: #a50000;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .footer-content a {
+            color: #a50000;
+            text-decoration: none;
+        }
+
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            nav ul li a {
+                padding: 6px 12px;
+                font-size: 0.8em;
+            }
+
+            nav ul li a i {
+                font-size: 14px;
+            }
+
+            .welcome h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Hindustan Laboratory</h1>
+        <p>Your Trusted Partner in Health Diagnostics</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="all-tests.html"><i class="fas fa-vial"></i> Our Diagnostic Tests</a></li>
+            <li><a href="all-tests.html"><i class="fas fa-list"></i> All Tests</a></li>
+            <li><a href="index.html#about"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="location.html"><i class="fas fa-map-marker-alt"></i> Location</a></li>
+            <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="report-download.html"><i class="fas fa-download"></i> Report Download</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="welcome">
+            <h2>Welcome to Hindustan Laboratory</h2>
+            <p>At Hindustan Laboratory, we provide accurate and reliable diagnostic tests to support your health journey. Located in Thalarka, Hanumangarh, our state-of-the-art facility ensures quality results you can trust. Access your test reports online with ease.</p>
+            <a href="report-download.html" class="cta-button"><i class="fas fa-download"></i> Access Your Reports</a>
+        </section>
+
+        <!-- Google AdSense Ad -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6947904611614272"
+                crossorigin="anonymous"></script>
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center; margin: 20px 0;"
+             data-ad-client="ca-pub-6947904611614272"
+             data-ad-slot="4980886983"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Hindustan Laboratory is dedicated to delivering high-quality diagnostic services. Our experienced team and advanced technology ensure precise results, helping you make informed health decisions.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="https://formspree.io/f/xeoabpqn" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p><strong>Phone</strong>: <a href="tel:+917733003846">+91-77330-03846</a></p>
+                <p><strong>Email</strong>: <a href="mailto:hindustanlabtlk@gmail.com">hindustanlabtlk@gmail.com</a></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Hindustan Laboratory. All Rights Reserved.</p>
+            <p>App developed by: <a href="https://ajexweb.github.io/Ajex-Web/" target="_blank">Ajay Saini</a></p>
+            <p>Company name: <a href="https://ajexweb.github.io/Ajex-Web/" target="_blank">Ajex Web Developer</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            setTimeout(() => {
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+            }, 500);
+        });
+    </script>
+</body>
+</html>
